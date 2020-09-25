@@ -1,9 +1,18 @@
 # Lab06 Guide
 ## Getting Started
 
-Please watch the Lab06 Walkthough Video.
+Please watch the [Lab06 Walkthough Video](https://www.youtube.com/playlist?list=PLvnIObHoMl8eEBDgbh2r7NUh3ujzNqxzV).
 
-## Lab Warmup - Variables, input and casting
+### Code Style Requirements
+Please review the [CS253 Style Guide](https://docs.google.com/document/d/1zKIpNfkiPpDHEvbx8XSkZbUEUlpt8rnZjkhCSvM-_3A/edit?usp=sharing) and apply it in all lab warmups, lab activities and projects this semester. Coding Style will assessed as part of your lab and project grades.
+
+### Code Quality Requirements
+- Code must compile without warnings using the provided Makefile
+- Programs must handle unexpected user input and either reprompt (loops) or gracefully exit with a non-zero exit status.
+- Programs must handle error conditions gracefully, without crashing, ideally by checking the returns codes (if available) and returning a non-zero exit status.
+- Programs should be free of memory related errors, buffer overflows, stack smashing, etc... Whether the program crashes or not.
+
+## Lab Warmup - Team Weight Tracker
 ### Problem Description
 
 Output each floating-point value with two digits after the decimal point, which can be achieved as follows:<br />`printf("%0.2lf", yourValue);`
@@ -64,7 +73,7 @@ Output each floating-point value with two digits after the decimal point, which 
 3. Test the program using to ensure it functions as expected.
 4. Commit the changes to your local repository with a message stating that LabWarmup is completed.
 5. Push the changes from your local repository to the github classroom repository.
-6. Update the Coding Journal with an entry describing your experience using the steps outlined below.
+6. Update the Coding Journal with an entry that includes the code segment where each variable is allocated, including the array.
 
 
 ## Lab Activity - Team Roster
@@ -174,7 +183,7 @@ Enter a rating for the new player:
 3. Test the program using to ensure it functions as expected.
 4. Commit the changes to your local repository with a message stating that LabActivity is completed.
 5. Push the changes from your local repository to the github classroom repository.
-6. Update the Coding Journal with an entry describing your experience using the steps outlined below.
+6. Update the Coding Journal with an entry that includes the code segment where each variable is allocated, including the array.
 
 ## Coding Journal
 Keep a journal of your activities as you work on this lab. Many of the best engineers that I have worked with professionally have kept some sort of engineering journal. I personally packed notebooks around with me for nearly 8 years before I began keeping my notes electronically.   
